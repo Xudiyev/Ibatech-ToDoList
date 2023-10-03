@@ -16,14 +16,14 @@ button.addEventListener('click', () => {
         `;
         input.value = '';
         var mylists = document.querySelectorAll("#deleteBtn");
-        // We take button length
+        // 1-We take button length.
         for(var i=0; i<mylists.length; i++){
-            // We choose whic list we a want to delete
+            // 2-We choose whic list we a want to delete.
             mylists[i].onclick = function(){
                 this.parentNode.remove();
             }
         }
-        // Done button 
+        // The same with Done button 
         var doneButton=document.querySelectorAll("#doneBtn")
         for(var i=0; i<doneButton.length; i++){
             doneButton[i].onclick = function(){
