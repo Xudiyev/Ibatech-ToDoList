@@ -1,4 +1,4 @@
-
+"use strict";
 let input = document.getElementById('inpt')
 let button = document.getElementById('btn')
 let ulist = document.getElementById('ulist')
