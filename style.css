@@ -1,0 +1,40 @@
+.list-group-item{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+#deleteBtn{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 6px;
+    top: 6px;
+}
+
+#doneBtn{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 70px;
+    top: 6px;  
+}
+h2{
+    color: lawngreen;
+    margin-bottom: 20px;
+    
+}
+h3{
+    color: lawngreen;
+}
+
+li{
+    text-decoration-color: red !important;
+    font-weight: 500;
+}
